@@ -1,5 +1,7 @@
 package com.npmhub.rndeviceorientation;
 
+import android.app.Activity;
+import android.content.pm.ActivityInfo;
 import android.content.Context;
 import android.view.OrientationEventListener;
 import android.view.Surface;
@@ -8,6 +10,7 @@ import com.facebook.react.bridge.ReactApplicationContext;
 import com.facebook.react.bridge.ReactContextBaseJavaModule;
 import com.facebook.react.bridge.ReactMethod;
 import com.facebook.react.bridge.Callback;
+
 
 public class RNDeviceOrientationModule extends ReactContextBaseJavaModule {
 
