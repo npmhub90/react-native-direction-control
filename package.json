@@ -1,0 +1,36 @@
+{
+  "name": "react-native-direction-control",
+  "version": "1.0.3",
+  "description": "A React Native component for handling directional inputs, perfect for interactive applications requiring gesture and directional control.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/npmhub90/react-native-direction-control.git"
+  },
+  "keywords": [
+    "react-native",
+    "directional input",
+    "gesture control",
+    "interactive",
+    "direction control",
+    "touch input",
+    "swipe detection"
+  ],  
+  "author": "Jerry Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/npmhub90/react-native-direction-control/issues"
+  },
+  "homepage": "https://github.com/npmhub90/react-native-direction-control#readme",
+  "dependencies": {
+    "react": "17.0.2",
+    "react-native": "^0.67.0",
+    "react-native-vector-icons": "^7.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
