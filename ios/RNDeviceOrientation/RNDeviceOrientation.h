@@ -1,5 +1,3 @@
-// RNDeviceOrientation.h
-
 #import <React/RCTBridgeModule.h>
 
 @interface RNDeviceOrientation : NSObject <RCTBridgeModule>

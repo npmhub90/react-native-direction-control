@@ -1,5 +1,3 @@
-// RNDeviceOrientation.m
-
 #import "RNDeviceOrientation.h"
 #import <UIKit/UIKit.h>
 

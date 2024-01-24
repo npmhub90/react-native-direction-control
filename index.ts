@@ -1,7 +1,6 @@
 import { NativeModules, DeviceEventEmitter, EmitterSubscription } from 'react-native';
 
 const { RNDeviceOrientation } = NativeModules;
-
 interface OrientationEvent {
   orientation: string;
 }
@@ -78,4 +77,4 @@ class OrientationManager {
   }
 }
 
-export const Orientation = OrientationManager.getInstance();
+export const DirectionControl = OrientationManager.getInstance();

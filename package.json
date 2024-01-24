@@ -1,8 +1,8 @@
 {
   "name": "react-native-direction-control",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A React Native component for handling directional inputs, perfect for interactive applications requiring gesture and directional control.",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
     "test": "jest"
   },
