@@ -24,7 +24,7 @@ yarn add react-native-direction-control
 import { DirectionControl } from 'react-native-direction-control';
 
 // Get current screen direction
-DirectionControl.getDirection().then(direction => {
+DirectionControl.getOrientation().then(direction => {
   console.log(direction);
 });
 
@@ -51,7 +51,7 @@ DirectionControl.removeDirectionChangeListener(onDirectionChange);
 
 ### Methods
 
-- `getDirection()`: Promise<string>
+- `getOrientation()`: Promise<string>
 - `lockToPortrait()`: void
 - `lockToLandscape()`: void
 - `unlockAllDirections()`: void

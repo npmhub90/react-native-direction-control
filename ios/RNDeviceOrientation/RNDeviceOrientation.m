@@ -1,7 +1,9 @@
+
 #import "RNDeviceOrientation.h"
 #import <UIKit/UIKit.h>
 
 @implementation RNDeviceOrientation
+
 
 RCT_EXPORT_MODULE();
 
@@ -43,4 +45,21 @@ RCT_EXPORT_METHOD(unlockAllOrientations) {
     });
 }
 
+- (UIInterfaceOrientationMask)getOrientationMask {
+    UIDeviceOrientation orientation = [[UIDevice currentDevice] orientation];
+    switch (orientation) {
+        case UIDeviceOrientationPortrait:
+        case UIDeviceOrientationPortraitUpsideDown:
+            return UIInterfaceOrientationMaskPortrait;
+        case UIDeviceOrientationLandscapeLeft:
+        case UIDeviceOrientationLandscapeRight:
+            return UIInterfaceOrientationMaskLandscape;
+        default:
+            return UIInterfaceOrientationMaskAll;
+    }
+}
+
+
 @end
+
+  
