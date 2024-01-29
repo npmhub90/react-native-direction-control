@@ -13,6 +13,9 @@ A flexible and feature-rich button component for React Native applications, offe
 
 `react-native-direction-control` is a React Native module for managing and controlling the device's screen direction. This module allows you to programmatically lock the device's screen to a specific direction and detect orientation changes.
 
+
+![toast gif](./docs/landscape.gif)
+
 ## Features
 
 - Retrieve the current screen direction.
